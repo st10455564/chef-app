@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "components/RoundedButton.jsx", "data/Appetizers.js", "components/SpecialList.jsx", "components/DescripritonContainer.jsx", "app/(tabs)/meals.jsx"  ]
+}
